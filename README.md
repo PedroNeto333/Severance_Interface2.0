@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./assets/banner.png" alt="System Interface Banner" />
+  <img src="./img/banner.png" alt="System Interface Banner" />
 </p>
 
 # Severance_Interface2.0
