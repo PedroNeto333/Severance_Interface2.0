@@ -327,6 +327,10 @@ function addLog(message, type = "info") {
   }
 }
 
-addLog("VIOLAÇÃO DETECTADA NO SETOR 04", "violation");
-addLog("DADOS REFINADOS COM SUCESSO", "success");
-addLog("FALHA CRÍTICA DE INTEGRIDADE DO SISTEMA", "violation");
+addLog("VIOLATION DETECTED IN SECTOR 04", "violation");
+addLog("DATA REFINED SUCCESSFULLY", "success");
+addLog("CRITICAL SYSTEM INTEGRITY FAILURE", "violation");
+addLog("ESTABLISHING SECURE CONNECTION...", "info");
+addLog("USER IDENTITY VERIFIED: REFINER", "info");
+addLog("WAITING FOR DATA COMMIT PROTOCOL", "info");
+
