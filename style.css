@@ -1096,11 +1096,17 @@ button,
 }
 
 .log-entry.violation {
-  color: #ff6666;
+  color: #ff3333; /* Vermelho para erros */
+  text-shadow: 0 0 5px rgba(255, 51, 51, 0.5);
 }
 
 .log-entry.success {
-  color: #00faad;
+  color: #00ff41; /* Verde clássico de terminal */
+  text-shadow: 0 0 5px rgba(0, 255, 65, 0.5);
+}
+
+.log-entry.info {
+  color: #8ee3f1; /* Azul padrão Lumon */
 }
 
 @keyframes logFadeIn {
@@ -1112,3 +1118,4 @@ button,
 .system-footer {
   position: relative;
 }
+
